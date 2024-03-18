@@ -1,0 +1,51 @@
+#background{
+    background-image: url("Assets/sprites/background-day.png");
+    height: 512px;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#base{
+    background-image: url("Assets/sprites/base.png");
+
+    height: 112px;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#remainder{
+   background-color: #DED895;
+    width: 100vw;
+    height: calc(100vh - 624px);
+
+}
+#bird{
+    position: absolute;
+    top: 200px;
+    left: 50vw;
+}
+body, html {
+    background-color: #4EC0CA;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#score{
+    position: absolute;
+    top: 100px;
+    left:50vw;
+
+}
+#startscreen{
+    position: absolute;
+    top: 110px;
+    left: calc(50vw - 75px);
+}
+body {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
